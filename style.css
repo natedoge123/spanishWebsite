@@ -1,0 +1,37 @@
+/* style.css */
+
+
+.background {
+  background-color: DarkSeaGreen; 
+}
+
+.title-container {
+  display: flex;
+  flex: 1;
+  flex-direction: horizontal;
+  align-items: center;
+  justify-content: center;
+}
+.title-container div {
+}
+.title-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-container {
+  display: flex;
+  flex: 1;
+  flex-direction: horizontal;
+  align-items: center;
+  justify-content: center;
+}
+.header-container div {
+  width: 100px;
+  text-align: center;
+}
+
+.header-container a {
+  color: black;
+  text-decoration: none;
+}
