@@ -39,5 +39,9 @@
 }
 
 .bodyContainer {
-
+  display: flex;
+  flex: 1;
+  flex-direction: horizontal;
+  align-items: center;
+  justify-content: center;  
 }
