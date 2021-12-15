@@ -1,37 +1,43 @@
 /* style.css */
 
-
 .background {
-  background-color: DarkSeaGreen; 
+  background-color: LightSlateGrey; 
 }
 
-.title-container {
+.titleContainer {
   display: flex;
   flex: 1;
   flex-direction: horizontal;
   align-items: center;
   justify-content: center;
 }
-.title-container div {
-}
-.title-container a {
+ 
+.titleContainer a {
   color: black;
   text-decoration: none;
+  font-size: 150%;
 }
 
-.header-container {
+.headerContainer {
   display: flex;
   flex: 1;
   flex-direction: horizontal;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+  width: 100%;
+  height: 150%;
+  background-color: Snow;
 }
-.header-container div {
+
+.headerContainer a {
   width: 100px;
   text-align: center;
-}
-
-.header-container a {
+  font-size 200%;
   color: black;
   text-decoration: none;
+}
+
+.bodyContainer {
+
 }
