@@ -45,3 +45,8 @@
   align-items: center;
   justify-content: center;  
 }
+
+.bodyContainer {
+  color: black;
+  text-decoration: none;
+}
