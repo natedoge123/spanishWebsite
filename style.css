@@ -59,6 +59,16 @@
   border: 5px solid white;
 }
 
+.linkContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-content: space-between;
+}
+ .linkContainer div {
+   padding: 50px
+ }
+
 .essayContainer {
   display: flex;
   flex-direction: column;
